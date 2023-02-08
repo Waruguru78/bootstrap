@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+       
+        <title>Bootcamp</title>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+
+            <div class="container">
+
+                <a href="#" class="navbar-brand">My Shop</a>
+                
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Customers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Sales</a>
+                        </li>
+
+                    </ul>
+
+            </div>
+
+        </nav>
+
+        <br>
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <h2>Home</h2>
+
+                <div class="col col-3">
+                    <div class="card">
+                        <img src="Images/6.jpeg" class="float-start" alt="#">
+                    </div>
+
+                </div>
+                <div class="col col-3">
+                    <div class="card">
+                        <img src="Images/8.jpeg" class="mx-3 d-block" alt="#">
+                    </div>
+                </div>
+                <div class="col col-3">
+                    <div class="card">
+                        <img src="Images/1.jpeg" class="mx-3 d-block" alt="#">
+                    </div>
+                </div>
+                <div class="col col-3">
+                    <div class="card">
+                        <img src="Images/5.jpeg" class="float-end" alt="#">
+                    </div>
+                </div>
+
+            </div>
+
+            <br>
+
+            <div class="row">
+
+                <img src="Images/7.jpeg" class="rounded img-thumbnail" alt="#">
+                <img src="Images/2.jpeg" class="rounded img-thumbnail" alt="#">
+                <img src="Images/3.jpeg" class="rounded img-thumbnail" alt="#">
+                <img src="Images/4.jpeg" class="rounded img-thumbnail" alt="#">
+
+            </div>
+
+            <br>
+
+            <div class="row">
+
+                <table class="table table-secondary table-hover">
+
+                    <thead>
+
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Phone</th>
+                        <th scope="col">Email</th>
+
+                    </thead>
+
+                    <tbody class="table-group-divider">
+
+                        <tr>
+
+                            <th scope="row">1</th>
+                            <td>Tom</td>
+                            <td>0123456789</td>
+                            <td>tom@gmail.com</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <th scope="row">2</th>
+                            <td>Jin</td>
+                            <td>0987654321</td>
+                            <td>jin@gmail.com</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <th scope="row">3</th>
+                            <td>Hope</td>
+                            <td>0234765981</td>
+                            <td>hope@gmail.com</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <th scope="row">4</th>
+                            <td>Rose</td>
+                            <td>0987612345</td>
+                            <td>rose@gmail.com</td>
+
+                        </tr>
+                        
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" 
+            data-bs-target="#infoModal">Contact us</button>
+
+            <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+
+                <div class="modal-dialog">
+
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+
+                            <h1 class="modal-title" id="infoModalLabel">About Us</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                        </div>
+
+                        <div class="modal-body">
+
+                            <form>
+
+                                <h2>Contact</h2>
+
+                                <label for="name" class="form-label">Name:</label>
+                                <input type="text" class="form-control" name="name" id="name">
+                                <label for="email" class="form-label">Email:</label>
+                                <input type="email" class="form-control" name="email" id="email">
+                                <label for="message" class="form-label">Message:</label>
+                                <input type="text" class="form-control" name="message" id="message">
+
+                            </form>
+
+                        </div>
+
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Submit</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <br><br>
+
+            <div class="card text-center">
+                <div class="card-body">
+                    &2023 Copyright Reserved.
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
